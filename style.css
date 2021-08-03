@@ -1,0 +1,52 @@
+body{
+    margin: 0;
+    padding-top: 200px;
+    text-align: center;
+}
+.mic{
+    width: 220px;
+    height: 180px;
+    margin-bottom: 50px;
+    border-radius: 50%;
+    border-style: solid;
+    margin-top: 120px;
+    border-color: black;
+}
+#singing{
+    position: absolute;
+    color: lightblue;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 125%;
+    z-index: 0;
+    background: linear-gradient(#ffdede 0%,#0800ff 100%);
+    vertical-align: middle;
+}
+h1{
+    font-size: 40px;
+    font-family: serif;
+    font-weight: 300;
+}
+#info{
+    padding: 50px;
+    text-align: center;
+}
+.line{
+    height: 6px;
+    background-color: blue;
+    width: 150px;
+    margin: 8px auto;
+}
+p{
+    max-width: 700px;
+    margin: 25px auto;
+    font-size: 20px;
+    height: 1.2;
+    background: #0800ff 100%;
+    border-color: black;
+    border-width: 10;
+    border-style: dotted;
+}
