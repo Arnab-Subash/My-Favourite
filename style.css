@@ -111,6 +111,7 @@ h4 {
     background: linear-gradient(#0015ff 40%, #616eff 100%);
     padding: 50px;
 }
+
 #work {
     background: linear-gradient(#616eff 40%, #0015ff 100%);
     padding: 50px;
@@ -125,16 +126,20 @@ a {
 html {
     scroll-behavior: smooth;
 }
+
 #h {
     margin-bottom: 20px;
     margin-top: 70px;
 }
+
 img {
     transition: transform 1s;
 }
+
 img:hover {
     transform: scale(.8);
 }
+
 #Likings {
     height: 400px;
     background: linear-gradient(#0015ff 40%, #616eff 100%);
