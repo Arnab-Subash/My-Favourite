@@ -23,7 +23,7 @@ body {
     width: 100%;
     height: 100%;
     z-index: 0;
-    background: linear-gradient(#ffdede 0%, #0015ff 100%);
+    background: linear-gradient(#002766 0%, #5999ff 100%);
     display: table-cell;
     vertical-align: middle;
 }
@@ -37,7 +37,7 @@ h1 {
 #info {
     padding: 50px;
     text-align: center;
-    background: linear-gradient(#0015ff 40%, #616eff 100%);
+    background: linear-gradient(#5999ff 40%, #004ac2 100%);
     height: 600px;
 }
 
@@ -102,18 +102,18 @@ h4 {
 
 
 #Music {
-    background: linear-gradient(#616eff 40%, #0015ff 100%);
+    background: linear-gradient(#004ac2 40%, #004ac2 100%);
     padding: 50px;
 }
 
 #links {
     height: 1200px;
-    background: linear-gradient(#0015ff 40%, #616eff 100%);
+    background: linear-gradient(#004ac2 40%, #7aadff 100%);
     padding: 50px;
 }
 
 #work {
-    background: linear-gradient(#616eff 40%, #0015ff 100%);
+    background: linear-gradient(#7aadff 40%, #004ac2 100%);
     padding: 50px;
     height: 1800px;
 }
@@ -142,6 +142,28 @@ img:hover {
 
 #Likings {
     height: 400px;
-    background: linear-gradient(#0015ff 40%, #616eff 100%);
+    background: linear-gradient(#004ac2 40%, #00235c 100%);
     padding: 50px;
+}
+#Contacts {
+    background: linear-gradient(#00235c 40%, #000b1c 100%);
+    padding-top: 50px;
+    height: 680px;
+}
+#Contacts iframe {
+    width: 100%;
+}
+.contact_1 h3 {
+    display:inline;
+}
+.contact_1 a {
+    text-shadow: none !important;
+}
+#back {
+    width: 100%;
+    margin-bottom: -680px;
+    height: 680px;
+}
+#back:hover {
+    transform: none !important;
 }
