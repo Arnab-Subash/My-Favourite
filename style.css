@@ -132,11 +132,11 @@ html {
     margin-top: 70px;
 }
 
-img {
+#i {
     transition: transform 1s;
 }
 
-img:hover {
+#i:hover {
     transform: scale(.8);
 }
 
@@ -166,4 +166,8 @@ img:hover {
 }
 #back:hover {
     transform: none !important;
+}
+#a:hover {
+    color: black;
+    background-color: antiquewhite;
 }
